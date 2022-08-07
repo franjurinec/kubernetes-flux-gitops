@@ -1,6 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: default
+metadata:
+  name: nats-gitops
+  namespace: default
 resources:
   - nats-helm-repo.yaml
   - nats-helm-release.yaml
