@@ -10,4 +10,6 @@ spec:
   interval: 10m
   path: ./Project
   prune: true 
+  decryption-provider: sops
+  decryption-secret: sops-age
   validation: client 
