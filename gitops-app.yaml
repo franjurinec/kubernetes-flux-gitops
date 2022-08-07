@@ -8,6 +8,6 @@ spec:
     kind: GitRepository
     name: kubernetes-course-repo
   interval: 10m
-  path: ./project
+  path: ./Project
   prune: true 
   validation: client 
