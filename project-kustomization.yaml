@@ -15,6 +15,3 @@ spec:
     secretRef:
       name: sops-age
   validation: client
-resources:
-  - nats-helm-repo.yaml
-  - nats-helm-release.yaml
